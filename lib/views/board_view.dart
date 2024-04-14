@@ -31,6 +31,7 @@ class _BoardViewState extends State<BoardView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xff781D42),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -59,7 +60,7 @@ class _BoardViewState extends State<BoardView> {
         Text(
           "$currentPlayer turn",
           style: const TextStyle(
-            color: Colors.black87,
+            color: Colors.white,
             fontSize: 32,
             fontWeight: FontWeight.bold,
           ),

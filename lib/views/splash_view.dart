@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:xo_task/views/board_view.dart';
-import 'package:xo_task/views/home_view.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});
